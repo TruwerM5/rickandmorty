@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "prettier . --write"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "axios": "^1.7.9",
+    "lodash": "^4.17.21",
+    "nuxt": "^3.15.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/material-symbols": "^1.2.12",
+    "@nuxt/icon": "^1.10.3",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@types/lodash": "^4.17.14",
+    "prettier": "^3.4.2"
+  }
+}
